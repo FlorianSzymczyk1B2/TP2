@@ -1,16 +1,21 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: grey;
+	
 }
 
 #header
 {
 	background: #ccc;
 	padding: 20px;
+	background-color: white;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+color: grey;
+ background-color: white;
+ }
 
 #navigation
 {
@@ -58,11 +63,13 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	color: white;
+	background-color: black;
 }
 
 #edito h2
 {
-	color: #000;
+	color: white;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,13 +90,16 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color: black;
+	color: white;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: black;
+	text-align: centerline;
 	padding: 20px;
 	height: 1%;
+	color: grey;
 }
